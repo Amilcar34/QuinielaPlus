@@ -4,6 +4,13 @@ function setResultRandom(cantGrups){
         while (resutl.size != 8) {
             resutl.add(Math.floor((Math.random() * 10) + 1));
         }
-        document.getElementById("resultRandomDiv").innerText(resutl)
+        let resultValue = "";
+        for (const element of resutl.entries()) 
+            resultValue += element + " - ";            
+        
+        let group = document.createTextNode(resultValue);
+        let li = document.createElement('LI');
+        li.appendChild(group);
+        document.getElementById("resultRandomUl").appendChild(li);
     }
 }
