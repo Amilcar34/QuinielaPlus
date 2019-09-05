@@ -4,6 +4,6 @@ function setResultRandom(cantGrups){
         while (resutl.size == 8) {
             resutl.add(Math.floor((Math.random() * 10) + 1));
         }
-        document.getElementById("resultRandomDiv").innerHTML(resutl)
+        document.getElementById("resultRandomDiv").innerText(resutl)
     }
 }
