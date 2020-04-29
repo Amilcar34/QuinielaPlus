@@ -16,7 +16,7 @@ function setResultRandom(cantGrups){
     }
 }
  grecaptcha.ready(function() {
-		    grecaptcha.execute('6LcvDfAUAAAAADsbAYU-MGOgCrJmUJp4y9yw_qjj', {action: 'homepage'}).then(function(token) {
+		    grecaptcha.execute('6LfGQ60UAAAAAG4Q3xOUzyDhEjoYSKctIwjyvRtH', {action: 'homepage'}).then(function(token) {
 		       console.log(token)
 		    });
 		});
