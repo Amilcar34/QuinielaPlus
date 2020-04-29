@@ -20,7 +20,7 @@ function setResultRandom(cantGrups){
       console.log(data)
   };
 grecaptcha.ready(function() {
-    grecaptcha.execute('_reCAPTCHA_site_key_', {action: 'homepage'}).then(function(token) {
+    grecaptcha.execute('6LckKvAUAAAAALI3v_z-Io-XKwMMl-QdpM_TPjbL', {action: 'homepage'}).then(function(token) {
        console.log(token)
     });
 });
