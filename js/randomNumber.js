@@ -15,6 +15,7 @@ function setResultRandom(cantGrups){
         document.getElementById("resultRandomUl").appendChild(li);
     }
 }
-  var onloadCallback = function() {
+  var onloadCallback = function(data) {
     alert("grecaptcha is ready!");
+      console.log(data)
   };
