@@ -15,12 +15,6 @@ function setResultRandom(cantGrups){
         document.getElementById("resultRandomUl").appendChild(li);
     }
 }
- grecaptcha.ready(function() {
-		    grecaptcha.execute('6LfGQ60UAAAAAG4Q3xOUzyDhEjoYSKctIwjyvRtH', {action: 'homepage'}).then(function(token) {
-		       console.log(token)
-		    });
-		});
-
   var onloadCallback = function() {
     alert("grecaptcha is ready!");
   };
