@@ -19,8 +19,3 @@ function setResultRandom(cantGrups){
     alert("grecaptcha is ready!");
       console.log(data)
   };
-grecaptcha.ready(function() {
-    grecaptcha.execute('6LckKvAUAAAAALI3v_z-Io-XKwMMl-QdpM_TPjbL', {action: 'homepage'}).then(function(token) {
-       console.log(token)
-    });
-});
